@@ -17,5 +17,4 @@ router.post('/mark', markAttendance);
 router.put('/:id', updateAttendance);
 router.get('/employee/:id', getEmployeeHistory);
 router.get('/reports/monthly', getMonthlyReport);
-
 module.exports = router;

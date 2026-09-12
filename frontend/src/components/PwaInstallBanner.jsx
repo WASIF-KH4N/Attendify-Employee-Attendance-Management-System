@@ -31,6 +31,7 @@ const PwaInstallBanner = () => {
     return () => window.removeEventListener('beforeinstallprompt', handler);
   }, []);
 
+  
   useEffect(() => {
     const handler = () => {
       setIsInstalled(true);

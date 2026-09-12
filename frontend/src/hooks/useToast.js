@@ -3,7 +3,7 @@ import { useState, useCallback } from 'react';
 let toastId = 0;
 
 export const useToast = () => {
-  const [toasts, setToasts] = useState([]);
+   const [toasts, setToasts] = useState([]);
 
   const addToast = useCallback((message, type = 'success', duration = 3000) => {
     const id = ++toastId;
